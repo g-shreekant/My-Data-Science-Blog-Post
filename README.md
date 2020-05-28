@@ -1,44 +1,26 @@
-# Udacity-Project-4: Writing a blog post
-Udacity Data Science Nanodegree Project. The FIFA 19 dataset is choosen from Kaggle and exploratory data analysis is done to answer the questions.
-### Table of Contents
+# FIFA-2019-Analysis
+Here in this project FIFA World Cup 2019 and Analyzes the Performance and Efficiency of Teams, Players, Countries and other related things using Data Analysis and Data Visualization
 
-1. [Installation](#installation)
-2. [Project_Motivation](#motivation)
-3. [File Description](#files)
-4. [Results](#results)
-5. [Licensing, Authors, and Acknowledgements](#licensing)
+# Insights
 
-## Installation <a name="installation"></a>
+I will focus on the three questions below:
 
-Python 3 is required for this Project.*.
+Q1: What’s the ratio of total wages/ total potential for clubs. Which clubs are the most economical ？
 
-## Project Motivation<a name="motivation"></a>
+Q2: What’s the age distribution like? How is it related to the player’s overall rating?
 
-This is an Udacity Data Science Nanodegree project. I chose FIFA 19 dataset to answer the following questions:
+Q3: How is a player’s skill set influence his potential? Can we predict a player’s potential based on his skills’ set?
 
-1.Who are the Top 10 most Valuable Players?  
-2.Which are Top 10 Clubs having most Valuable Players?  
-3.Who are the Top 10 Highly Paid Players?  
-4.Which are Top 10 Clubs having most Highly Paid Players?  
-5.Are the higher valued players always paid more, i.e, what is the correlation between value and wage 
+What’s the ratio of total wages/ total potential for clubs. Which clubs are the most economical ？
+First I would like to look at the data at the clubs’ level. There is a total of 651 clubs collected and on average 27.6 players for each club. So which of the clubs are richest among them and which are more cost-effective？
+
+To find answers to the first question, we can take a look at the wage/potential ratio for each club. The higher the ratio is, the more willingly a club spends money on high potential players.
+
+On average, clubs spend €140 on wage for every potential of their players. So for a common player with 50 potential, his club will pay €7000 every year
 
 
-## File Descriptions <a name="files"></a>
+# Acknowledgements
+Data scraped from https://sofifa.com/
 
-fifa19.csv contains lastest edition FIFA 2019 players attributes including age, potential, wage. There are a lot of other interesting attributes for the players as well such as release clause.
-
-There is also a notebook available here to show my work related to the above questions. I have also uploaded the html file for the same.
-
-
-
-## Results<a name="results"></a>
-
-The results insights could be found at [post](https://medium.com/@debayanghosh92/ea-sports-fifa-2019-a-short-descriptive-analysis-8f0108e9abb5) .
-Please refer to this link to get a summary of my work.
-
-
-
-## Licensing, Authors, Acknowledgements<a name="licensing"></a>
-
-You can find the Licensing for the data in the Kaggle link available her [here](https://www.kaggle.com/karangadiya/fifa19). 
-I want to thank the Udacity Data Science Nano-Degree Program for giving me this opportunity to do the project.
+# Data Reference
+Inspired from this dataset: https://www.kaggle.com/thec03u5/fifa-18-demo-player-dataset
