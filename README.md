@@ -1,4 +1,4 @@
-# Udacity-Project-4: Writing a blog post
+#  Writing a blog post
 Udacity Data Science Nanodegree Project. The FIFA 19 dataset is choosen from Kaggle and exploratory data analysis is done to answer the questions.
 ### Table of Contents
 
